@@ -1,0 +1,183 @@
+/* Shered style */
+body {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+
+/* Header section style */
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../resources/Banner Image.png");
+  max-width: 1320px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  opacity: 0.9;
+}
+.banner-content {
+  max-width: 632px;
+  color: white;
+  text-align: center;
+}
+.banner-content h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.banner-content h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+/* off categories styles */
+.off-categories {
+  max-width: 800px;
+  margin: 70px auto;
+  text-align: center;
+}
+.off-categories h3 {
+  color: #ff0000;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.off-categories p {
+  color: #ff0000;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.off-categories h4 {
+  font-size: 30px;
+  font-weight: 700px;
+  margin-top: 15px;
+}
+/* midnight party styles section */
+.midnight-party {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 1320px;
+  height: 600px;
+  background-image: url("../resources/Vectorrr.png");
+  margin: 50px auto;
+}
+.party-year img {
+  width: 310px;
+  height: 400px;
+}
+.party-info h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.party-info p {
+  color: white;
+  font-size: 12px;
+}
+.party-info button {
+  padding: 10px;
+  border: none;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+}
+.party-info button:hover {
+  background-color: #ff0000;
+  color: white;
+}
+/* new park syles */
+.new-park {
+  width: 1320px;
+  height: 450px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: linear-gradient(pink, #fff);
+  text-align: center;
+  align-content: center;
+  margin: 25 auto;
+}
+.new-park-schedule span {
+  color: #ff0000;
+}
+.new-park button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+/* comming soon styles */
+.comming-soon {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.comming-soon .comming-soon-item {
+  max-width: 363px;
+}
+.comming-soon-item .bordered-img {
+  border: 5px solid #ff0000;
+  border-radius: 50%;
+  padding: 30px;
+}
+/* All gifts starts */
+.All-gifts {
+  max-width: 1320px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+/* suscribe newslatter start */
+.suscribe-newsletter {
+  max-width: 1320px;
+  background-color: pink;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+input[type="text"] {
+  max-width: 600px;
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+input[type="button"] {
+  background-color: #ff0000;
+  padding: 10px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  right: 4px;
+  color: white;
+}
+/* Footer sectin styles */
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-contact {
+  display: flex;
+  justify-content: space-around;
+}
+.social-icon-group {
+  text-align: center;
+}
+.coppyright-info {
+  display: flex;
+  justify-content: space-around;
+}
+footer hr {
+  width: 70%;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
